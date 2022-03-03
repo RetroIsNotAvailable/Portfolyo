@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
+@mixin flx-caj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flx-aj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flx-a {
+    display: flex;
+    align-items: center;
+}
+@mixin flx-ac {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin flx-j {
+    display: flex;
+    justify-content: center;    
+}
+@mixin flx-jc {
+    display: flex;
+    justify-content: center;;
+    flex-direction: column;
+}
+@mixin yazıt{
+    font-family: "Spartan", sans-serif;
+    color: beige;
+    font-size: 25px;
+}

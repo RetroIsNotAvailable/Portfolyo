@@ -1,0 +1,98 @@
+@import "mixin";
+.innercont2{
+    width: 90%;
+    background-color: #131524;
+    height: 550px;
+    margin-top: 200px;
+    box-shadow: 0 0 25px #131524;
+    padding: 50px
+}
+.bilgiyazı{
+    @include yazıt;
+    height: 100%;
+    font-size: 22px;
+    margin-top: 115px;
+}
+.foto{
+    width: 250px;
+    float: left;
+    padding: 20px;
+    margin-top: 95px;
+}
+.innercont3{
+    width: 90%;
+    height: 600px;
+    background-color: #131524;
+    box-shadow: 0 0 25px #131524;
+    margin-top: 70px;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.linku{
+    color: #917756;
+    float: right;
+ 
+    font-size: 30px;
+    transition: ease 200ms;
+
+    &:hover{
+        color: beige;
+    font-size: 40px;
+    }
+}
+.linku1{
+    color: #917756;
+    float: right;
+    font-size: 30px;
+    transition: ease 200ms;
+    margin-right: 10px;
+    &:hover{
+        color: beige;
+    font-size: 40px
+    }
+}
+.calisma{
+    @include yazıt;
+    color: #917756 !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.ininer1{
+    width: 100%;
+    height: 75%;
+    padding: 5px;
+}
+@media screen and (max-width:768px) {
+    .foto{
+        width: 150px;
+        margin-top: 0px;
+    }
+    .bilgiyazı{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .linku{
+        margin-top: 120px;
+    }
+    .linku1{
+        margin-top: 120px;
+    }
+    .calisma{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:680px){
+    .bilgiyazı{
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    .foto{
+        width: 120px;
+        height: 150px;
+        margin-top: 0px;
+    }
+}

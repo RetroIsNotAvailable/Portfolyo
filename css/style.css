@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #a0a0a0;
+  width: 100%;
+  height: 100%; }
+
+.cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.üst {
+  display: flex;
+  width: 65%;
+  height: 10vh;
+  background-color: #131524;
+  align-items: center; }
+
+.logo {
+  border-radius: 50%;
+  margin-left: 20px;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #917756;
+  display: flex; }
+
+.tkky {
+  font-family: "Spartan", sans-serif;
+  font-size: 30px;
+  color: #917756;
+  text-shadow: 5px 0px 10px #131524;
+  margin-top: 2px;
+  margin-left: 10px; }
+
+.innercont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  float: right;
+  background-color: #131524;
+  min-height: 10vh; }
+
+.üstünaltı {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  height: 60px;
+  background-color: rgba(19, 21, 36, 0.7);
+  backdrop-filter: blur(7px); }
+
+.a1 {
+  margin: 20px auto;
+  font-size: 25px;
+  color: #917756;
+  text-decoration: none;
+  transition: ease 200ms; }
+  .a1:hover {
+    color: beige;
+    font-size: 24px;
+    text-shadow: 2px 0px 5px black; }
+
+.slogan {
+  font-family: "Spartan", sans-serif;
+  font-size: 25px;
+  color: #917756;
+  text-shadow: 5px 0px 10px #131524;
+  float: right; }
+
+.inn {
+  display: flex;
+  width: 35%;
+  height: 10vh;
+  background-color: #131524;
+  align-items: center;
+  padding: 50px; }
+
+.innn {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #131524;
+  align-items: center;
+  justify-content: flex-end; }
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed; }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 55px;
+    height: 55px; }
+  .tkky {
+    font-size: 18px; }
+  .slogan {
+    margin-left: 0px;
+    font-size: 15px; }
+  .a1 {
+    font-size: 15px; }
+  .inn {
+    padding: 0px; } }
+
+.innercont2 {
+  width: 90%;
+  background-color: #131524;
+  height: 550px;
+  margin-top: 200px;
+  box-shadow: 0 0 25px #131524;
+  padding: 50px; }
+
+.bilgiyazı {
+  font-family: "Spartan", sans-serif;
+  color: beige;
+  font-size: 25px;
+  height: 100%;
+  font-size: 22px;
+  margin-top: 115px; }
+
+.foto {
+  width: 250px;
+  float: left;
+  padding: 20px;
+  margin-top: 95px; }
+
+.innercont3 {
+  width: 90%;
+  height: 600px;
+  background-color: #131524;
+  box-shadow: 0 0 25px #131524;
+  margin-top: 70px;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center; }
+
+.linku {
+  color: #917756;
+  float: right;
+  font-size: 30px;
+  transition: ease 200ms; }
+  .linku:hover {
+    color: beige;
+    font-size: 40px; }
+
+.linku1 {
+  color: #917756;
+  float: right;
+  font-size: 30px;
+  transition: ease 200ms;
+  margin-right: 10px; }
+  .linku1:hover {
+    color: beige;
+    font-size: 40px; }
+
+.calisma {
+  font-family: "Spartan", sans-serif;
+  color: beige;
+  font-size: 25px;
+  color: #917756 !important;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.ininer1 {
+  width: 100%;
+  height: 75%;
+  padding: 5px; }
+
+@media screen and (max-width: 768px) {
+  .foto {
+    width: 150px;
+    margin-top: 0px; }
+  .bilgiyazı {
+    font-size: 15px;
+    margin-top: 0px; }
+  .linku {
+    margin-top: 120px; }
+  .linku1 {
+    margin-top: 120px; }
+  .calisma {
+    font-size: 20px; } }
+
+@media screen and (max-width: 680px) {
+  .bilgiyazı {
+    font-size: 13px;
+    margin-top: 0px; }
+  .foto {
+    width: 120px;
+    height: 150px;
+    margin-top: 0px; } }
+
+.sont {
+  overflow-x: auto;
+  overflow-y: auto;
+  background-color: rgba(145, 119, 86, 0.5);
+  width: 70%;
+  height: 6000px;
+  display: flex;
+  border-radius: 20px; }
+
+.sergie {
+  min-width: 640px;
+  min-height: 380px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px; }
+
+.sergie1 {
+  background: url("../sergi/1.jpg"); }
+
+.sergie2 {
+  background: url("../sergi/2.jpg"); }
+
+.sergie3 {
+  background: url("../sergi/3.jpg"); }
+
+.sergie4 {
+  background: url("../sergi/4.jpg"); }
+
+.sergie5 {
+  background: url("../sergi/5.jpg"); }
+
+.sergie6 {
+  background: url("../sergi/6.png"); }
+
+@media screen and (max-width: 768px) {
+  .sont {
+    height: 350px;
+    width: 325px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px; }
+  .sergie {
+    min-width: 250px;
+    min-height: 150px; }
+    .sergie:first-child {
+      margin-top: 15px; }
+    .sergie:last-child {
+      margin-bottom: 15px; } }
+
+.innercont4 {
+  display: flex;
+  width: 90%;
+  background-color: #131524;
+  height: 550px;
+  margin-top: 70px;
+  box-shadow: 0 0 25px #131524;
+  padding: 50px;
+  justify-content: center; }
+
+.ininer22 {
+  font-family: "Spartan", sans-serif;
+  color: beige;
+  font-size: 25px;
+  color: #917756;
+  font-size: 30px; }
+
+@media screen and (max-width: 768px) {
+  .ininer22 {
+    font-size: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

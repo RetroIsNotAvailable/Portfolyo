@@ -1,0 +1,60 @@
+@import "mixin";
+.sont{
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: rgba($color: #917756, $alpha: 0.5);
+    width: 70%;
+    height: 6000px;
+    display: flex;
+    border-radius: 20px;
+}
+.sergie{
+    min-width: 640px;
+    min-height: 380px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+}
+.sergie1{
+    background: url('../sergi/1.jpg');
+}
+.sergie2{
+    background: url('../sergi/2.jpg');
+ }
+.sergie3{
+    background: url('../sergi/3.jpg');
+}
+.sergie4{
+    background: url('../sergi/4.jpg');
+}
+.sergie5{
+    background: url('../sergi/5.jpg');
+}
+.sergie6{
+    background: url('../sergi/6.png');
+}
+
+@media screen and (max-width:768px) {
+    .sont{
+        height: 350px;
+        width: 325px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .sergie{
+        min-width: 250px;
+        min-height: 150px;
+        &:first-child{
+            margin-top: 15px;
+        }
+        &:last-child{
+            margin-bottom: 15px;
+        }
+
+    }
+
+}
